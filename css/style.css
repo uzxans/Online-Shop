@@ -10,24 +10,47 @@ body {
     padding: 0;
 }
 
+h2{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    height: 30px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
    a:hover {
     color:#6C8CD5; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: none; /* Убираем подчеркивание у ссылок */
    }
 
 header{
-    background-color: #1240AB;
+    background-color: #007bff;
     color: white;
 }
 
-
+.logo img{
+    width: 20px;
+    height: auto;
+}
 
 li {
     list-style-type: none; /* Убираем маркеры */
     margin-right: 10px;
    }
-li a{
+h2{
+    margin: 5px;
+}
+
+.nav-menu{
+    padding: 5px;
+}
+.nav-menu li a{
     color: white;
+}
+.nav-menu a:hover {
+    color:#6C8CD5; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
 }
 
 .menu{
@@ -37,9 +60,10 @@ li a{
     box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
 }
 
-.menu a{
+.menu .log a{
     color: black;
 }
+
 .header__login {
     display: inline-block;
     position: relative;
@@ -67,16 +91,6 @@ li a{
 }
 
 
-
-.presearch {
-    padding: 12px 20px;
-    width: 450px;
-    display: inline-block;
-    height: 64px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 .presearch .ui-input-search_presearch {
     height: auto;
@@ -183,30 +197,36 @@ input {
     margin-left: auto;
     margin-right: auto;
     min-height: 75%;
-    margin-top: 20px;
+
 }
 
 .category {
     background-color: white;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+    border: solid 1px transparent;
     
 }
 
 .slide{
     background-color: white;
-    border-radius: 5px;   
+    border-radius: 8px; 
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+    border: solid 1px transparent;  
 }
 
 .top-menu{
     background-color: white;
-    border-radius: 5px;   
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+    border: solid 1px transparent;   
 }
 
 .carousel-inner {
     position: relative;
     width: 100%;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .top-menu a{
@@ -221,3 +241,60 @@ input {
     border-radius: 5px;
     margin-top: 10px;
 }   
+
+.nav-category{
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+    border: solid 1px transparent;
+}
+
+
+.top-new
+    {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+        border: solid 1px transparent;   
+        margin-top: 10px;
+        padding: 5px;
+        
+    }
+
+    .btn-primary{
+        width: 100%;
+    }
+
+    .formm{
+        padding: 5px;
+    }
+
+    .tab-content{
+        padding-top: 5px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+        .homepage-auth__title {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .homepage-auth__description {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+.cat-menu{
+    height: 56px;
+    padding: 0 24px;
+    width: calc(100% + 2px);
+    margin: 0 -1px;
+    font-weight: 700;
+}
+
+.cat-menu :hover{
+    background: red;
+}
